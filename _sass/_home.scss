@@ -1,0 +1,14 @@
+div.home-carousel {
+	background-color: #000;
+	opacity: 0.2;
+	z-index: 2;
+
+	div.home-image {
+
+		img {
+			z-index: 3;
+			width:100%;
+		}
+	}
+}  
+

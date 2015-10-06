@@ -2,38 +2,47 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: absolute;
 }
 
 .site-title {
     font-size: 26px;
+    font-family: 'News Cycle', Arial, sans-serif;
+    font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    z-index: 5;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
 .site-nav {
-    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
     line-height: 56px;
-
+    text-align: center;
+    font-family: 'News Cycle', Arial, sans-serif;
+    font-weight: 400;
+    background-color: #000000;
+    opacity: 0.2;
+    float: left;
+    width: 100%;
+    position: fixed;
+    
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #FFFFFF;;
         line-height: $base-line-height;
+        text-transform: uppercase;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -42,7 +51,7 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
+        position: fixed;
         top: 9px;
         right: 30px;
         background-color: $background-color;
@@ -70,7 +79,6 @@
         }
 
         .trigger {
-            clear: both;
             display: none;
         }
 
@@ -83,6 +91,16 @@
             display: block;
             padding: 5px 10px;
         }
+    }
+
+    .nav-left {
+        display: inline-block;
+        float: left;
+    }
+
+    .nav-right {
+        display: inline-block;
+        float: right;
     }
 }
 
@@ -162,7 +180,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    /*padding: $spacing-unit 0;*/
+
 }
 
 .page-heading {
