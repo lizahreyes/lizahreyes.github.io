@@ -29,8 +29,7 @@
     text-align: center;
     font-family: 'News Cycle', Arial, sans-serif;
     font-weight: 400;
-    background-color: #000000;
-    opacity: 0.2;
+    background-color: rgba(0,0,0,0.5);
     float: left;
     width: 100%;
     position: fixed;
@@ -43,6 +42,7 @@
         color: #FFFFFF;;
         line-height: $base-line-height;
         text-transform: uppercase;
+        opacity: 1;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -80,6 +80,7 @@
 
         .trigger {
             display: none;
+
         }
 
         &:hover .trigger {
@@ -101,6 +102,10 @@
     .nav-right {
         display: inline-block;
         float: right;
+    }
+
+    .nav-wrapper {
+        width: 562.5;
     }
 }
 

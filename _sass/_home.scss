@@ -1,14 +1,13 @@
 div.home-carousel {
-	background-color: #000;
-	opacity: 0.2;
-	z-index: 2;
 
-	div.home-image {
+	section.home {
 
 		img {
-			z-index: 3;
-			width:100%;
+			background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 		}
 	}
+
+
+
 }  
 
