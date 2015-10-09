@@ -467,5 +467,5 @@ pre {
   .highlight .il {
     color: #099; }
 
-div.home-carousel section.home img {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+div.home-carousel {
+  max-width: none; }
