@@ -1,9 +1,16 @@
 div.home-carousel {
 	max-width: none;
 
+	section.home {
+		position:relative;
+	}
+
 	div.homeWrapper {
-		width: 100%;
-		background-color: rgba(0,0,0,1);
+	    max-width: none;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    position: absolute;
+	    height: 100%;
+	    width: 100%;
 	}
 }  
 

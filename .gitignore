@@ -1,3 +1,4 @@
 .DS_Store
-.sass_cache
-_site/
+.sass_cache/*
+_site/*
+assets/images/.DS_Store

@@ -10,6 +10,7 @@
             {% if page.weight == weight %}
               {% if page.title %}
               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <div class="nav-indicator"></div>
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -24,6 +25,7 @@
               {% if page.weight == weight %}
                 {% if page.title %}
                 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <div class="nav-indicator"></div>
                 {% endif %}
               {% endif %}
             {% endfor %}

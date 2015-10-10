@@ -6,6 +6,7 @@ description: > # this number sign means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "lizahreyes.com" # the base hostname & protocol for your site
 github_username:  lizahreyes
+js: home
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,51 @@
+div.aboutContainer {
+	section.aboutMe {
+		div.portrait {
+			img {
+				box-shadow: 0px 1px 3px grey;
+			}
+		}
+
+		div.highlights {
+			color: #FFF;
+			top: 40%;
+		    right: 0%;
+		    width: 50%;
+			position: absolute;
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+
+	.wrapper {
+		position:relative;
+		padding-top: 20px;
+	}
+
+	section.interests {
+		div {
+			display: inline-block;
+
+			ul{
+				list-style-type: none;
+				margin: 0;
+				li {
+					display: inline-block;
+					vertical-align: middle;
+
+					div {
+						display: inline-block;
+						
+						img {
+							display: block;
+						}
+					}
+				}
+			}
+
+			img {
+				width: 300px;
+				height: auto;
+			}
+		}
+	}
+}
