@@ -16,12 +16,21 @@ div.aboutContainer {
 		}
 	}
 
+	section.experience {
+		div {
+			img {
+				max-width: 20%;
+			}
+		}
+	}
+
 	.wrapper {
 		position:relative;
 		padding-top: 20px;
 	}
 
 	section.interests {
+	text-align: center;
 		div {
 			display: inline-block;
 

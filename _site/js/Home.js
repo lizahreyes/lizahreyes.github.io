@@ -1,3 +1,3 @@
 console.log("Home.js");
 
-$('nav').css('background-color', 'rgba(0,0,0,0)');
+$('nav').css('background-color', 'rgba(0,0,0,0)').css('box-shadow', 'none');
