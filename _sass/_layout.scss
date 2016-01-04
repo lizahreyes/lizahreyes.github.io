@@ -11,13 +11,12 @@
 
 .site-title {
     font-size: 26px;
-    font-family: 'News Cycle', Arial, sans-serif;
+    font-family: 'Permanent Marker', Arial, sans-serif;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     display: inline-block;
-    color: #FFF;
     text-shadow: 5px;
     text-transform: uppercase;
     z-index: 5;
@@ -30,11 +29,15 @@
 }
 
 .site-nav {
+    a {
+        color: #000;
+    }
+
     line-height: 56px;
     text-align: center;
     font-family: 'News Cycle', Arial, sans-serif;
     font-weight: 400;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
     float: left;
     width: 100%;
     position: fixed;
@@ -56,7 +59,6 @@
     }
 
     .page-link {
-        color: #FFF;;
         line-height: $base-line-height;
         text-transform: uppercase;
         opacity: 1;
@@ -133,6 +135,7 @@
             padding: 5px 10px;
         }
     }
+
 }
 
 
@@ -211,6 +214,16 @@
 /**
  * Page content
  */
+.section-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    @include media-query($on-laptop) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
 .page-content {
     /*padding: $spacing-unit 0;*/
 

@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Asap, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -150,13 +150,12 @@ pre {
 
 .site-title {
   font-size: 26px;
-  font-family: 'News Cycle', Arial, sans-serif;
+  font-family: 'Permanent Marker', Arial, sans-serif;
   font-weight: 700;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
   display: inline-block;
-  color: #FFF;
   text-shadow: 5px;
   text-transform: uppercase;
   z-index: 5; }
@@ -169,12 +168,14 @@ pre {
   text-align: center;
   font-family: 'News Cycle', Arial, sans-serif;
   font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
   float: left;
   width: 100%;
   position: fixed;
   vertical-align: center;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75); }
+  .site-nav a {
+    color: #000; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .nav-indicator {
@@ -185,7 +186,6 @@ pre {
     background-color: #75CBCC;
     vertical-align: center; }
   .site-nav .page-link {
-    color: #FFF;
     line-height: 1.5;
     text-transform: uppercase;
     opacity: 1;
@@ -291,6 +291,14 @@ pre {
 /**
  * Page content
  */
+.section-padding {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  @media screen and (max-width: 800px) {
+    .section-padding {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+
 .page-content {
   /*padding: $spacing-unit 0;*/ }
 
@@ -488,10 +496,14 @@ div.home-carousel {
     position: relative; }
   div.home-carousel div.homeWrapper {
     max-width: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
     height: 100%;
     width: 100%; }
+  div.home-carousel .content {
+    font-family: Asap, Arial, Sans serif; }
+  div.home-carousel h2 {
+    font-family: Permanent Marker, Arial, Sans serif; }
 
 div.aboutContainer section.aboutMe div.portrait img {
   box-shadow: 0px 1px 3px grey; }
