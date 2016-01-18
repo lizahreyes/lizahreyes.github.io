@@ -548,6 +548,14 @@ div.aboutContainer section.interests {
 
 div.blogContainer {
   padding-top: 70px; }
+  div.blogContainer h2 {
+    margin-bottom: 0px;
+    line-height: 28px; }
+  div.blogContainer .entry {
+    padding: 20px 20px 20px 20px;
+    background: white;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 3px; }
 
 div.recipeContainer {
   padding-top: 70px; }
