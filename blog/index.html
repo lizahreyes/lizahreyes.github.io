@@ -17,7 +17,7 @@ weight: 3
   <ul class="post-list">
     {% for post in site.posts %}
     {% if  post.category == 'blog' %}
-      <li class="entry">
+      <li class="entry shadow">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>

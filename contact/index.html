@@ -4,5 +4,27 @@ title: Contact
 permalink: /contact/
 weight: 4
 ---
+<div class="contactContainer row pageContainer">
+	<div class="wrapper">
+  		<section class="contact">
+  			Have any questions or inquires? Fill out the form below and let's chat!
 
-Contact me.
+  			<form action="//formspree.io/{{ site.email }}"
+			      method="POST">
+			    <div>
+			    	<label for="name">Name</label>
+			    	<input type="text" name="name">
+			    </div>
+			    <div>
+		    		<label for="mail">Email</label>
+			    	<input type="email" name="_replyto">
+		    	</div>
+		    	<div>
+		    		<label for="msg">Message</label>
+		    		<textarea></textarea>
+		    	</div>
+			    <button class="button radius large" type="submit" value="Send">Send</button>
+			</form>
+  		</section>
+	</div>
+</div>
