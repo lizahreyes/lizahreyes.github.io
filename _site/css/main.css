@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #eff4f7;
+  background: #eff4f7;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -533,6 +533,9 @@ div.home-carousel {
     font-weight: 700; }
   div.home-carousel .intro {
     text-align: center; }
+
+body {
+  background-color: #eff4f7; }
 
 div.aboutContainer section.aboutMe div.portrait img {
   box-shadow: 0px 1px 3px grey; }
