@@ -7,21 +7,30 @@ weight: 4
 <div class="contactContainer row pageContainer">
 	<div class="wrapper">
   		<section class="contact">
-  			Have any questions or inquires? Fill out the form below and let's chat!
+  			<h2 class="heading-2">Have any questions or inquires? Fill out the form below and let's chat!</h2>
 
   			<form action="//formspree.io/{{ site.email }}"
 			      method="POST">
-			    <div>
-			    	<label for="name">Name</label>
-			    	<input type="text" name="name">
+			    <div class="row">
+				    <div class="small-12 medium-12 large-12 columns">
+				    	<label for="name">Name
+				    		<input type="text" name="name">
+				    	</label>
+				    </div>
 			    </div>
-			    <div>
-		    		<label for="mail">Email</label>
-			    	<input type="email" name="_replyto">
+			    <div class="row">
+				    <div class="small-12 medium-12 large-12 columns">
+			    		<label for="mail">Email
+				    		<input type="email" name="_replyto">
+				    	</label>
+			    	</div>
 		    	</div>
-		    	<div>
-		    		<label for="msg">Message</label>
-		    		<textarea></textarea>
+		    	<div class="row">
+			    	<div class="small-12 medium-12 large-12 columns">
+			    		<label for="msg">Message
+			    			<textarea></textarea>
+			    		</label>
+			    	</div>
 		    	</div>
 			    <button class="button radius large" type="submit" value="Send">Send</button>
 			</form>

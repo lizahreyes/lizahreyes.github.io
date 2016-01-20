@@ -1,4 +1,7 @@
 div.contactContainer {
+	section {
+		padding-top: 60px;
+	}
 	input, textarea {
 	    /* To make sure that all text fields have the same font settings
 	       By default, textareas have a monospace font */
@@ -11,6 +14,11 @@ div.contactContainer {
 
 	    /* To harmonize the look & feel of text field border */
 	    border: 1px solid #999;
+	    border-radius: 3px;
+	}
+
+	label {
+		min-width: 300px;
 	}
 
 	input:focus, textarea:focus {

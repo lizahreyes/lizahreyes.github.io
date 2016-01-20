@@ -579,6 +579,8 @@ div.blogContainer {
 div.recipeContainer {
   padding-top: 70px; }
 
+div.contactContainer section {
+  padding-top: 60px; }
 div.contactContainer input, div.contactContainer textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
@@ -588,7 +590,10 @@ div.contactContainer input, div.contactContainer textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* To harmonize the look & feel of text field border */
-  border: 1px solid #999; }
+  border: 1px solid #999;
+  border-radius: 3px; }
+div.contactContainer label {
+  min-width: 300px; }
 div.contactContainer input:focus, div.contactContainer textarea:focus {
   /* To give a little highlight on active elements */
   border-color: #000; }
