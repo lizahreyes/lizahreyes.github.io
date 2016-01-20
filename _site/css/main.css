@@ -149,6 +149,8 @@ pre {
 .shadow {
   border-radius: 3px;
   box-shadow: 2px 2px 5px #e5e5e5; }
+  .shadow.darker {
+    box-shadow: 2px 2px 5px #cccccc; }
 
 .heading-2 {
   color: #446e88; }
@@ -157,6 +159,9 @@ pre {
   background-color: #FFF;
   color: #000;
   border-radius: 3px; }
+
+.no-bullet {
+  list-style: none; }
 
 /**
  * Site header
