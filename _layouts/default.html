@@ -8,14 +8,13 @@
     {% include header.html %}
 
     <div class="page-content">
+      <div class="wrapper">
         {{ content }}
+      </div>
     </div>
 
     {% include footer.html %}
 
   </body>
 
-{% if page.js %}
-	<script type="text/javascript" src="../js/{{page.js}}.js"></script>
-{% endif %}
 </html>

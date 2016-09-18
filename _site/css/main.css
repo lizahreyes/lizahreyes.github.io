@@ -11,13 +11,15 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background: #eff4f7;
-  -webkit-text-size-adjust: 100%; }
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -58,17 +60,19 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
+  font-weight: 400; }
 
 /**
  * Links
  */
 a {
-  color: #558aaa;
-  text-decoration: none;
-  /*&:visited {
-      color: darken($brand-color, 15%);
-  }*/ }
+  color: #2a7ae2;
+  text-decoration: none; }
+  a:visited {
+    color: #1756a9; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -98,7 +102,7 @@ code {
 
 pre {
   padding: 8px 12px;
-  overflow-x: scroll; }
+  overflow-x: auto; }
   pre > code {
     border: 0;
     padding-right: 0;
@@ -108,18 +112,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (30px));
-      max-width: calc(1000px - (30px));
-      padding-right: 30px;
-      padding-left: 30px; } }
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
 
 /**
  * Clearfix
@@ -141,99 +145,40 @@ pre {
     fill: #828282; }
 
 /**
- * Custom
- */
-.hero-image {
-  margin: 40px 0 20px 0; }
-
-.shadow {
-  border-radius: 3px;
-  box-shadow: 2px 2px 5px #e5e5e5; }
-  .shadow.darker {
-    box-shadow: 2px 2px 5px #cccccc; }
-
-.heading-2 {
-  color: #446e88; }
-
-.btn-brand {
-  background-color: #FFF;
-  color: #000;
-  border-radius: 3px; }
-
-.no-bullet {
-  list-style: none; }
-
-/**
  * Site header
  */
 .site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  color: #446e88;
-  position: absolute;
-  z-index: 1000; }
+  position: relative; }
 
 .site-title {
   font-size: 26px;
-  font-family: 'Oswald', Arial, sans-serif;
-  font-weight: 700;
-  float: left;
-  line-height: 40px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
   margin-bottom: 0;
-  display: inline-block;
-  text-shadow: 5px;
-  text-transform: uppercase;
-  z-index: 5;
-  color: #446e88; }
-  .site-title:hover {
-    color: #FFF;
-    text-decoration: none; }
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
 
 .site-nav {
-  line-height: 40px;
-  text-align: center;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-weight: 400;
-  background-color: #eff4f7;
-  float: left;
-  width: 100%;
-  position: fixed;
-  vertical-align: center;
-  /*box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);*/ }
-  .site-nav a {
-    color: #446e88; }
+  float: right;
+  line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
-  .site-nav .nav-indicator {
-    height: 5px;
-    width: 5px;
-    display: inline-block;
-    visibility: hidden;
-    background-color: #446e88;
-    vertical-align: center; }
   .site-nav .page-link {
-    line-height: 1.5;
-    opacity: 1;
-    margin: 0 0 0 20px; }
-    .site-nav .page-link:not(:first-child) {
-      margin-left: 20px; }
-    .site-nav .page-link:hover {
-      text-decoration: none; }
-    .site-nav .page-link:hover + .nav-indicator {
-      visibility: visible; }
-  .site-nav .nav-left {
-    display: inline-block;
-    float: left; }
-  .site-nav .nav-right {
-    display: inline-block;
-    float: right; }
-  .site-nav .wrapper {
-    border-bottom: 1px solid #d8e2e7; }
+    color: #111;
+    line-height: 1.5; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      position: fixed;
+      position: absolute;
       top: 9px;
-      right: 30px;
-      background-color: #eff4f7;
+      right: 15px;
+      background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -251,13 +196,17 @@ pre {
           .site-nav .menu-icon > svg path {
             fill: #424242; }
       .site-nav .trigger {
+        clear: both;
         display: none; }
       .site-nav:hover .trigger {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
         display: block;
-        padding: 5px 10px; } }
+        padding: 5px 10px;
+        margin-left: 20px; }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0; } }
 
 /**
  * Site footer
@@ -276,7 +225,6 @@ pre {
   margin-left: 0; }
 
 .footer-col-wrapper {
-  text-align: center;
   font-size: 15px;
   color: #828282;
   margin-left: -15px; }
@@ -315,17 +263,8 @@ pre {
 /**
  * Page content
  */
-.section-padding {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-  @media screen and (max-width: 800px) {
-    .section-padding {
-      padding-top: 30px;
-      padding-bottom: 30px; } }
-
 .page-content {
-  /*padding: $spacing-unit 0;*/
-  background: #eff4f7; }
+  padding: 30px 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -381,6 +320,8 @@ pre {
  */
 .highlight {
   background: #fff; }
+  .highlighter-rouge .highlight {
+    background: #eef; }
   .highlight .c {
     color: #998;
     font-style: italic; }
@@ -514,94 +455,3 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
-
-div.home-carousel {
-  max-width: none; }
-  div.home-carousel section.home {
-    position: relative; }
-  div.home-carousel div.homeWrapper {
-    max-width: none;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-    position: absolute;
-    height: 100%;
-    width: 100%; }
-  div.home-carousel .content {
-    font-family: Source Sans Pro, Arial, Sans serif; }
-  div.home-carousel h2 {
-    font-family: Oswald, Arial, Sans serif;
-    font-weight: 700; }
-  div.home-carousel .intro {
-    text-align: center; }
-
-body {
-  background-color: #eff4f7; }
-
-div.aboutContainer section.aboutMe div.portrait img {
-  box-shadow: 0px 1px 3px grey; }
-div.aboutContainer section.aboutMe div.highlights {
-  color: #FFF;
-  top: 40%;
-  right: 0%;
-  width: 50%;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5); }
-div.aboutContainer .wrapper {
-  position: relative;
-  padding-top: 20px; }
-div.aboutContainer section.interests {
-  text-align: center; }
-  div.aboutContainer section.interests div {
-    display: inline-block; }
-    div.aboutContainer section.interests div ul {
-      list-style-type: none;
-      margin: 0; }
-      div.aboutContainer section.interests div ul li {
-        display: inline-block;
-        vertical-align: middle; }
-        div.aboutContainer section.interests div ul li div {
-          display: inline-block; }
-          div.aboutContainer section.interests div ul li div img {
-            display: block; }
-    div.aboutContainer section.interests div img {
-      width: 300px;
-      height: auto; }
-
-div.blogContainer {
-  padding-top: 70px; }
-  div.blogContainer h2 {
-    margin-bottom: 0px;
-    line-height: 28px; }
-  div.blogContainer .entry {
-    padding: 20px 20px 20px 20px;
-    background: white; }
-
-div.recipeContainer {
-  padding-top: 70px; }
-
-div.contactContainer section {
-  padding-top: 60px; }
-div.contactContainer input, div.contactContainer textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-  /* To give the same size to all text field */
-  width: 300px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-  border-radius: 3px; }
-div.contactContainer label {
-  min-width: 300px; }
-div.contactContainer input:focus, div.contactContainer textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: #000; }
-div.contactContainer textarea {
-  /* To properly align multiline text fields with their labels */
-  vertical-align: top;
-  /* To give enough room to type some text */
-  height: 5em;
-  /* To allow users to resize any textarea vertically
-     It does not work on every browsers */
-  resize: vertical; }

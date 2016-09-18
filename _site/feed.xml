@@ -6,69 +6,9 @@
 </description>
     <link>lizahreyes.com/</link>
     <atom:link href="lizahreyes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 13:56:45 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 13:56:45 -0500</lastBuildDate>
+    <pubDate>Sun, 18 Sep 2016 13:48:35 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 13:48:35 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Challenge yourself</title>
-        <description>&lt;p&gt;Hello dear readers!  I hope you are all enjoying the transition from spring to fall.  This is my favourite time of the year because mother nature shows off her ability to wow us with breathtaking views of the outdoors.  In particular, this morning I watched the most beautiful sunrise behind the Toronto skyline.  It was the first time in a long time where I took a moment of silence to enjoy the view and sit back and witness nature at it’s best.&lt;/p&gt;
-
-&lt;p&gt;Besides my recent fascination of looking at the sky – partly due to my astronomy course – I wanted to share with you my newest experiences. 
-I now volunteer with the in-store dietitian at Superstore in Milton; 
-Started visiting patients in the bariatric clinic and will have my own patients soon;
-Am a recipient a Jennifer Welsch scholarship from the School of Nutrition at Ryerson&lt;/p&gt;
-
-&lt;p&gt;I already have so much going on but I believe that continuously challenging yourself is the best way to improve. Like a quote I heard in class recently “Challenge yourself and nobody else”&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Oct 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/blog/2015/10/23/challenge-yourself.html</link>
-        <guid isPermaLink="true">lizahreyes.com/blog/2015/10/23/challenge-yourself.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>2016 DC Internship Packages </title>
-        <description>&lt;p&gt;This week has been amazingly stressful to say the least.  To sum it up quickly, the 2016 DC internship application packages have just come out and it has all upper year nutrition students on edge.  The School of Nutrition at Ryerson is being super supportive in providing workshops, and I am regretfully reflecting back on this time last year.  Where was I and why was I not attending the workshops?  Either way, time is my only enemy at this point so wish me luck!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 Oct 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/blog/2015/10/07/dc-internship-packages.html</link>
-        <guid isPermaLink="true">lizahreyes.com/blog/2015/10/07/dc-internship-packages.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>School &amp; work &amp; volunteering..</title>
-        <description>&lt;p&gt;This week I had the pleasure of volunteering at a large community event where multiple organizations had showcased the programs that were available to their community members.  I worked at Unison’s Diabetes Prevention Program (DPP) booth to share diabetes-related information and to assist individuals in determining their risk for developing diabetes.  It is a great feeling to share my knowledge with others who aren’t well-versed in this area, to give them the information that they need to make informed decisions about food and nutrition.&lt;br /&gt;
-In addition, I got to meet a new volunteer that I coincidentally already work with.  What a great way to end my week, with a new friend!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Oct 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/blog/2015/10/02/School-work-volunteering.html</link>
-        <guid isPermaLink="true">lizahreyes.com/blog/2015/10/02/School-work-volunteering.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Hi!</title>
-        <description>&lt;p&gt;Starting this new school year was very different.  If you didn’t already know, I originally come from Winnipeg, MB (where I grew up!).  After a very good friend of mine moved back home this year, I realized that many of my close friends live in different cities now (Toronto, Winnipeg, Calgary, and in Ann Arbor (Michigan)).  I wanted to share my passion of food &amp;amp; trying new things with these friends, so I started a new mission: recipe food challenge (long-distance).  Every month we choose one recipe to make, and then we all share our experiences of making it + pictures!  Here are the out photos from our first set of recipes:&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Sep 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/blog/2015/09/15/first-blog-post.html</link>
-        <guid isPermaLink="true">lizahreyes.com/blog/2015/09/15/first-blog-post.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -84,15 +24,17 @@ In addition, I got to meet a new volunteer that I coincidentally already work wi
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 15 Mar 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/home/2015/03/15/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">lizahreyes.com/home/2015/03/15/welcome-to-jekyll.html</guid>
+        <pubDate>Sun, 18 Sep 2016 13:44:21 -0400</pubDate>
+        <link>lizahreyes.com/jekyll/update/2016/09/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">lizahreyes.com/jekyll/update/2016/09/18/welcome-to-jekyll.html</guid>
         
         
-        <category>home</category>
+        <category>jekyll</category>
+        
+        <category>update</category>
         
       </item>
     
