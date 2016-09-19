@@ -13,6 +13,10 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html {
+    height: 100%;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -23,6 +27,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    height: 100%;
 }
 
 
@@ -67,6 +72,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    list-style: none;
 }
 
 li {
@@ -82,6 +88,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: $base-title-font-family;
     font-weight: $base-font-weight;
 }
 
@@ -91,15 +98,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $black;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
+        color: $black;
         text-decoration: underline;
     }
 }

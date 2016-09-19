@@ -1,0 +1,20 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+weight: 2
+---
+
+<ul>
+{% for post in site.posts %}
+	{% if post.category == 'blog' %}
+	<li class="page-post">
+		<h4>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h4>
+	  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<div>{{ post.content }}</div>
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
