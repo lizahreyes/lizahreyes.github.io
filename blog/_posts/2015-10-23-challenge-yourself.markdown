@@ -12,4 +12,4 @@ I now volunteer with the in-store dietitian at Superstore in Milton;
 Started visiting patients in the bariatric clinic and will have my own patients soon;
 Am a recipient a Jennifer Welsch scholarship from the School of Nutrition at Ryerson
 
-I already have so much going on but I believe that continuously challenging yourself is the best way to improve. Like a quote I heard in class recently “Challenge yourself and nobody else” 
+I already have so much going on but I believe that continuously challenging yourself is the best way to improve. Like a quote I heard in class recently “Challenge yourself and nobody else”

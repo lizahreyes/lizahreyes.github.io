@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lizah Reyes</title>
+    <title>lr.</title>
     <description>Hi, welcome to lizahreyes.com!  Feel free to browse around each link in the navigation bar and send me a message!
 </description>
     <link>lizahreyes.com/</link>
     <atom:link href="lizahreyes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 13:56:45 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 13:56:45 -0500</lastBuildDate>
+    <pubDate>Sun, 18 Sep 2016 20:46:04 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 20:46:04 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -59,7 +59,7 @@ In addition, I got to meet a new volunteer that I coincidentally already work wi
     
       <item>
         <title>Hi!</title>
-        <description>&lt;p&gt;Starting this new school year was very different.  If you didn’t already know, I originally come from Winnipeg, MB (where I grew up!).  After a very good friend of mine moved back home this year, I realized that many of my close friends live in different cities now (Toronto, Winnipeg, Calgary, and in Ann Arbor (Michigan)).  I wanted to share my passion of food &amp;amp; trying new things with these friends, so I started a new mission: recipe food challenge (long-distance).  Every month we choose one recipe to make, and then we all share our experiences of making it + pictures!  Here are the out photos from our first set of recipes:&lt;/p&gt;
+        <description>&lt;p&gt;Starting this new school year was very different.  If you didn’t already know, I originally come from Winnipeg, MB (where I grew up!).  After a very good friend of mine moved back home this year, I realized that many of my close friends live in different cities now (Toronto, Winnipeg, Calgary, and in Ann Arbor (Michigan)).  I wanted to share my passion of food &amp;amp; trying new things with these friends, so I started a new mission: recipe food challenge (long-distance).  Every month we choose one recipe to make, and then we all share our experiences of making it + pictures!&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 05:51:23 -0400</pubDate>
         <link>lizahreyes.com/blog/2015/09/15/first-blog-post.html</link>
@@ -67,32 +67,6 @@ In addition, I got to meet a new volunteer that I coincidentally already work wi
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 15 Mar 2015 05:51:23 -0400</pubDate>
-        <link>lizahreyes.com/home/2015/03/15/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">lizahreyes.com/home/2015/03/15/welcome-to-jekyll.html</guid>
-        
-        
-        <category>home</category>
         
       </item>
     

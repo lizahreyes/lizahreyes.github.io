@@ -1,36 +1,21 @@
-div.home-carousel {
-	max-width: none;
+.home {
+	font-family: $base-title-font-family;
+	text-align: center;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 
-	section.home {
-		position:relative;
+	h1 {
+		margin-bottom: 0;
 	}
 
-	div.homeWrapper {
-	    max-width: none;
-    	-webkit-filter: blur(10px);
-    	filter: blur(10px);    
-    	position: absolute;
-	    height: 100%;
-	    width: 100%;
+	a {
+		text-transform: lowercase;
+		margin: 5px;
 	}
-
-	.content {
-		font-family: Source Sans Pro, Arial, Sans serif;
-	}
-
-	h2 {
-		font-family: Oswald, Arial, Sans serif;
-		font-weight: 700;
-	}
-
-	.intro {
-		text-align: center;
-	}
-
-
-}  
-
-body {
-		background-color: $background-color;
 }
-
