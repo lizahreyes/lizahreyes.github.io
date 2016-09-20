@@ -1,5 +1,16 @@
+.intro {
+	p {
+		text-align: center;
+		border-radius: 2px;
+		padding: 30px;
+		box-shadow: 2px 2px 5px #E6E6E6;
+		background-color: $white;
+	}
+}
+
 .page-post {
 	box-shadow: 2px 2px 5px #E6E6E6;
+	background-color: $white;
 	border-radius: 3px;
 	padding: 20px;
 	margin-top: 20px;

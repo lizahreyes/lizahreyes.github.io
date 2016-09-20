@@ -16,7 +16,7 @@ html {
 body {
   font: 400 16px/1.5 "Assistant", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -186,7 +186,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #e6e6e6;
+      background-color: #f2f2f2;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -483,8 +483,16 @@ pre {
     text-transform: lowercase;
     margin: 5px; }
 
+.intro p {
+  text-align: center;
+  border-radius: 2px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px #E6E6E6;
+  background-color: #FFFFFF; }
+
 .page-post {
   box-shadow: 2px 2px 5px #E6E6E6;
+  background-color: #FFFFFF;
   border-radius: 3px;
   padding: 20px;
   margin-top: 20px;
@@ -508,4 +516,6 @@ pre {
     margin-left: 30px; }
 
 .portrait {
-  height: 900px; }
+  width: 45%;
+  box-shadow: 2px 2px 5px #cccccc;
+  border-radius: 2px; }
